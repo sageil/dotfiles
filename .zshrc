@@ -1,1 +1,0 @@
-/Users/sammy/.config/.zshrc
