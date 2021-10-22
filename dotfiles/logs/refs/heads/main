@@ -1,0 +1,6 @@
+069c83d95e9ffabf690ba3257df4afc0c5c541a5 f82865d7daa58e0d08c147bdfa587fda36f54e5d Sammy Ageil <sammy.ageil@gmail.com> 1634498483 -0400	commit: initial configurations commit
+f82865d7daa58e0d08c147bdfa587fda36f54e5d 5765deff3b1aa119f51a33d006d8e81c3e784971 Sammy Ageil <sammy.ageil@gmail.com> 1634498697 -0400	commit: add .zshrc & alacritty.yml
+5765deff3b1aa119f51a33d006d8e81c3e784971 e3877d654834a6fff92365bc36e28a2adafd4ada Sammy Ageil <sammy.ageil@gmail.com> 1634499837 -0400	commit: add nvim configs
+e3877d654834a6fff92365bc36e28a2adafd4ada 116736a20cede9ffaaf00b8b5647b4c7227d5abf Sammy Ageil <sammy.ageil@gmail.com> 1634499939 -0400	pull: Fast-forward
+116736a20cede9ffaaf00b8b5647b4c7227d5abf 2cec2fef1e029ee05ea4c39e95b91ce5841dd858 Sammy Ageil <sammy.ageil@gmail.com> 1634500800 -0400	commit: remove link to .zshrc
+2cec2fef1e029ee05ea4c39e95b91ce5841dd858 b72ebe98ef9f28e7744f74c82ae36c3a8b813fcb Sammy Ageil <sammy.ageil@gmail.com> 1634510701 -0400	commit: modify history file location
