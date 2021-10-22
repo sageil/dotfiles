@@ -12,7 +12,7 @@ map('n', '<leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 
 map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})
-map('n', '<leader>dui', '<cmd>lua require"dapui".toggle()<CR>', {noremap=true, silent=true})
+map('n', '<leader>dui', '<cmd>lua require"dapui".toggle()<CR><F5>', {noremap=true, silent=true})
 local options ={noremap = true, silent = true}
 --nnoremap <silent> <F5> :lua require'dap'.continue()<CR>
 --nnoremap <silent> <F10> :lua require'dap'.step_over()<CR>

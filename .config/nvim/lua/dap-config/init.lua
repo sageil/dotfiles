@@ -3,7 +3,7 @@ local dap = require('dap')
 dap.adapters.node2 = {
   type = 'executable',
   command = 'node',
-  args = {os.getenv('HOME') .. '/Downloads/vscode-node-debug2/out/src/nodeDebug.js'},
+  args = {os.getenv('HOME') .. '/dev_tools/vscode-node-debug2/out/src/nodeDebug.js'},
 }
 
 dap.configurations.javascript = {
@@ -14,7 +14,7 @@ dap.configurations.javascript = {
     cwd = vim.fn.getcwd(),
     sourceMaps = true,
     protocol = 'inspector',
-    console = 'integratedTerminal',
+    --console = 'integratedTerminal',
   },
 }
 

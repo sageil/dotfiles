@@ -32,7 +32,7 @@ use {'glepnir/lspsaga.nvim'}
   use {'mfussenegger/nvim-dap'}
   use {'theHamsta/nvim-dap-virtual-text'}
   use {'nvim-telescope/telescope-dap.nvim'}
-  use {'rcarriga/nvim-dap-ui'}
+  use {'rcarriga/nvim-dap-ui',requires = {"mfussenegger/nvim-dap"} }
   use {'folke/lsp-colors.nvim'}
 
 

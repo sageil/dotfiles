@@ -88,9 +88,8 @@ HISTFILE=~/.config/.zsh_history
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions kubectl node npm 
-  zsh-interactive-cd 
-  zsh-syntax-highlighting
-  brew )
+  zsh-interactive-cd zsh-autosuggestions zsh-syntax-highlighting 
+  brew docker )
 
 #source $ZSH/oh-my-zsh.sh
 
@@ -112,7 +111,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 export ARCHFLAGS="-arch x86_64"
 source $ZSH/oh-my-zsh.sh
 #source $ZSH_CUSTOM/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -121,3 +120,5 @@ source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias dotgit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+

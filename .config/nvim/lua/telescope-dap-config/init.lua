@@ -30,6 +30,7 @@ vim.cmd('nnoremap <silent> <F5> :lua require"dap".continue()<CR>')
 vim.cmd('nnoremap <silent> <F10> :lua require"dap".step_over()<CR>')
 vim.cmd('nnoremap <silent> <F11> :lua require"dap".step_into()<CR>')
 vim.cmd('nnoremap <silent> <F12> :lua require"dap".step_out()<CR>')
+vim.cmd('nnoremap <silent> <F1> :lua require"dapui".toggle()<CR>')
 -- nvim-telescope/telescope-dap.nvim
 require('telescope').load_extension('dap')
 map('n', '<leader>ds', ':Telescope dap frames<CR>')
