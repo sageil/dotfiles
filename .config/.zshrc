@@ -8,6 +8,7 @@ export ZDOTDIR="$HOME/.config"
 export PATH="$PATH:/Users/sammy/.dotnet/tools"
 export PATH=$PATH:${HOME}/go/bin
 # Path to your oh-my-zsh installation.
+export JAVA_HOME=$(/usr/libexec/java_home) 
 export ZSH="/Users/sammy/.config/.oh-my-zsh"
  eval $(thefuck --alias)
 
